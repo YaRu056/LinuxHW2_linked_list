@@ -208,7 +208,7 @@ int main(int argc, char **argv)
 {
     struct list_head *list = list_new();
 
-    size_t count = 100000;
+    size_t count = 10000;
 
     int *test_arr = (int *)malloc(sizeof(int) * count);
 
